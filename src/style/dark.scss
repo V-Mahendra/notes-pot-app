@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+   }
+
+  
+.app.dark{
+    background-color: #111;
+    color: rgb(156,156,156);
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+   .my-masonry-grid {
+      display: -webkit-box; /* Not needed if autoprefixing */
+      display: -ms-flexbox; /* Not needed if autoprefixing */
+      display: flex;
+     
+      margin-left: -20px; /* gutter size offset */
+      width: auto;
+    }
+    .my-masonry-grid_column {
+      padding-left: 20px; /* gutter size */
+      background-clip: padding-box;
+    }
+    .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+      margin-bottom: 30px;
+    }
